@@ -1,0 +1,29 @@
+{
+  "name": "mi-proyecto-playwright",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba con Playwright y Cucumber",
+  "main": "index.js",
+  "presets": [
+    "@babel/preset-env"
+  ],
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.24.9",
+    "@babel/preset-env": "^7.24.8",
+    "@babel/register": "^7.24.6",
+    "@cucumber/cucumber": "^8.0.0",
+    "chai": "^4.3.6",
+    "playwright": "^1.31.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "allure-playwright": "^3.0.0-beta.7"
+  }
+}
